@@ -1,9 +1,63 @@
-<mxfile host="app.diagrams.net" modified="2023-09-12T04:03:04.973Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" version="21.6.6" etag="EyP5VKvx0eWGboWBAKlU" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-12T09:54:25.075Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="-9JxIfAB4nYmFOHmP3SJ" version="21.6.6" type="github">
   <diagram name="第 1 页" id="D1K56hvIOqRHzIkfI8qQ">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="fVx2uS7bBss0N4eyhNgO-1" value="StartActivity" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="160" width="230" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="fVx2uS7bBss0N4eyhNgO-3" value="HomeMainActivity/FoldActivity" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="fVx2uS7bBss0N4eyhNgO-1">
+          <mxGeometry x="10" y="40" width="220" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="fVx2uS7bBss0N4eyhNgO-2" value="TargetActivity" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="fVx2uS7bBss0N4eyhNgO-3">
+          <mxGeometry x="20" y="30" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="fVx2uS7bBss0N4eyhNgO-4" value="StartActivity" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="450" width="230" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="fVx2uS7bBss0N4eyhNgO-6" value="TargetActivity" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="fVx2uS7bBss0N4eyhNgO-4">
+          <mxGeometry x="10" y="30" width="220" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="fVx2uS7bBss0N4eyhNgO-5" value="HomeMainActivity/FoldActivity" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="472.5" width="220" height="245" as="geometry" />
+        </mxCell>
+        <mxCell id="fVx2uS7bBss0N4eyhNgO-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fVx2uS7bBss0N4eyhNgO-6" target="fVx2uS7bBss0N4eyhNgO-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="420" as="sourcePoint" />
+            <mxPoint x="440" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fVx2uS7bBss0N4eyhNgO-10" value="TrampolineActivity" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="765" width="230" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="fVx2uS7bBss0N4eyhNgO-14" value="TargetActivity" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="fVx2uS7bBss0N4eyhNgO-10">
+          <mxGeometry x="10" y="40" width="220" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="fVx2uS7bBss0N4eyhNgO-11" value="StartActivity" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="795" width="230" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="fVx2uS7bBss0N4eyhNgO-13" value="HomeMainActivity/FoldActivity" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="fVx2uS7bBss0N4eyhNgO-11">
+          <mxGeometry x="40" y="35" width="190" height="215" as="geometry" />
+        </mxCell>
+        <mxCell id="fVx2uS7bBss0N4eyhNgO-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fVx2uS7bBss0N4eyhNgO-14" target="fVx2uS7bBss0N4eyhNgO-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="720" as="sourcePoint" />
+            <mxPoint x="440" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fVx2uS7bBss0N4eyhNgO-20" value="StartActivity" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1100" width="267" height="347" as="geometry" />
+        </mxCell>
+        <mxCell id="fVx2uS7bBss0N4eyhNgO-21" value="HomeMainActivity/FoldActivity" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="fVx2uS7bBss0N4eyhNgO-20">
+          <mxGeometry x="40" y="35" width="227" height="312" as="geometry" />
+        </mxCell>
+        <mxCell id="fVx2uS7bBss0N4eyhNgO-18" value="TrampolineActivity" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="fVx2uS7bBss0N4eyhNgO-21">
+          <mxGeometry x="-3" y="42" width="230" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="fVx2uS7bBss0N4eyhNgO-19" value="TargetActivity" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="fVx2uS7bBss0N4eyhNgO-18">
+          <mxGeometry x="10" y="40" width="220" height="230" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
